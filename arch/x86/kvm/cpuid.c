@@ -1107,6 +1107,11 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 		return 1;
 
 	eax = kvm_rax_read(vcpu);
+	
+	if (eax == 0x4FFFFFFF) {
+		// Add solution here
+	}
+	
 	ecx = kvm_rcx_read(vcpu);
 	kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, false);
 	kvm_rax_write(vcpu, eax);
