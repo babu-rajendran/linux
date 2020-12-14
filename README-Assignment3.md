@@ -11,7 +11,13 @@ VBoxManage modifyvm linux --nested-hw-virt on
 ```
 
 <img width="643" alt="Screen Shot 2020-12-14 at 2 56 51 AM" src="https://user-images.githubusercontent.com/6368257/102055748-55d01b00-3e11-11eb-93a3-f321e00fffcc.png">
+
+After installing the dependencies and building the linux code, the kernel version got updated as shown in the screenshot below.
+
 <img width="643" alt="Screen Shot 2020-12-14 at 6 17 04 AM" src="https://user-images.githubusercontent.com/6368257/102055769-5f598300-3e11-11eb-96f5-f98fe4605e68.png">
+
+
+
 <img width="930" alt="Screen Shot 2020-12-14 at 10 22 42 AM" src="https://user-images.githubusercontent.com/6368257/102055780-641e3700-3e11-11eb-8f94-5031096770ce.png">
 
 ##### 3. Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there more exits performed during certain VM opera!ons? Approximately how many exits does a full VM boot entail?
