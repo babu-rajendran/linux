@@ -16,7 +16,7 @@ After installing the dependencies and building the linux code, the kernel versio
 
 <img width="643" alt="Screen Shot 2020-12-14 at 6 17 04 AM" src="https://user-images.githubusercontent.com/6368257/102055769-5f598300-3e11-11eb-96f5-f98fe4605e68.png">
 
-
+To build the inner VM, I installed the quemu and kvm packages and dependencies and downloaded the Ubuntu ISO image and tried to launch the ISO from an inner VM. But I got stuck in this black screen and I could not recover from it. I wonder if it's the linux's version of the blue screen of death.
 
 <img width="930" alt="Screen Shot 2020-12-14 at 10 22 42 AM" src="https://user-images.githubusercontent.com/6368257/102055780-641e3700-3e11-11eb-8f94-5031096770ce.png">
 
